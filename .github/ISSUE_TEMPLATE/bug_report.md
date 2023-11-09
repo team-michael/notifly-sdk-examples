@@ -1,9 +1,3 @@
-# `What Kind of Issue?`
-
-[ ] Bug Report<br/>
-[ ] Feature Request<br/>
-[ ] Question<br/>
-
 ## `Bug Report Section`
 
 ### 1. Your Platform
