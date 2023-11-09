@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+
+target 'notifly-example' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'notifly_sdk'
+  # Pods for notifly-example
+
+  target 'notifly-exampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'notifly-exampleUITests' do
+    # Pods for testing
+  end
+
+end

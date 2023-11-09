@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42F32ADC21B6365E8738AE94 /* Pods_notifly_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC67DCA0FF0ED2B38CCAC7D /* Pods_notifly_example.framework */; };
+		48062773320BB207A0BDF717 /* Pods_notifly_example_notifly_exampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5DE42B9D5ECDCC9D4C568A /* Pods_notifly_example_notifly_exampleUITests.framework */; };
+		BD3BAD00A99EB77F180AC1DD /* Pods_notifly_exampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FC1A0CB9454C129AE14D65 /* Pods_notifly_exampleTests.framework */; };
+		F27610192AFCB340009B6E23 /* notifly_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27610182AFCB340009B6E23 /* notifly_exampleApp.swift */; };
+		F276101B2AFCB340009B6E23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F276101A2AFCB340009B6E23 /* ContentView.swift */; };
+		F276101D2AFCB341009B6E23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F276101C2AFCB341009B6E23 /* Assets.xcassets */; };
+		F27610212AFCB341009B6E23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27610202AFCB341009B6E23 /* Preview Assets.xcassets */; };
+		F276102B2AFCB341009B6E23 /* notifly_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F276102A2AFCB341009B6E23 /* notifly_exampleTests.swift */; };
+		F27610352AFCB341009B6E23 /* notifly_exampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27610342AFCB341009B6E23 /* notifly_exampleUITests.swift */; };
+		F27610372AFCB341009B6E23 /* notifly_exampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27610362AFCB341009B6E23 /* notifly_exampleUITestsLaunchTests.swift */; };
+		F27610442AFCB48D009B6E23 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27610432AFCB48D009B6E23 /* Constants.swift */; };
+		F27610482AFCB972009B6E23 /* UserIdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27610452AFCB971009B6E23 /* UserIdView.swift */; };
+		F27610492AFCB972009B6E23 /* TrackEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27610462AFCB971009B6E23 /* TrackEventView.swift */; };
+		F276104A2AFCB972009B6E23 /* UserProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27610472AFCB971009B6E23 /* UserProperties.swift */; };
+		F276104C2AFCC0AA009B6E23 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F276104B2AFCC0AA009B6E23 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F27610272AFCB341009B6E23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F276100D2AFCB340009B6E23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F27610142AFCB340009B6E23;
+			remoteInfo = "notifly-example";
+		};
+		F27610312AFCB341009B6E23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F276100D2AFCB340009B6E23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F27610142AFCB340009B6E23;
+			remoteInfo = "notifly-example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B4C168F8A771ED50248D2A1 /* Pods-notifly-exampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notifly-exampleTests.debug.xcconfig"; path = "Target Support Files/Pods-notifly-exampleTests/Pods-notifly-exampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E6C7889F4B5E3F9ABD8B2DC /* Pods-notifly-example-notifly-exampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notifly-example-notifly-exampleUITests.release.xcconfig"; path = "Target Support Files/Pods-notifly-example-notifly-exampleUITests/Pods-notifly-example-notifly-exampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8FBB3B45FF3A82CB94E4E6B3 /* Pods-notifly-exampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notifly-exampleTests.release.xcconfig"; path = "Target Support Files/Pods-notifly-exampleTests/Pods-notifly-exampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		92A12C989F276CA78F1DDCBE /* Pods-notifly-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notifly-example.debug.xcconfig"; path = "Target Support Files/Pods-notifly-example/Pods-notifly-example.debug.xcconfig"; sourceTree = "<group>"; };
+		94FC1A0CB9454C129AE14D65 /* Pods_notifly_exampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_notifly_exampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC67DCA0FF0ED2B38CCAC7D /* Pods_notifly_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_notifly_example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49793ABA273D23981814F6A /* Pods-notifly-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notifly-example.release.xcconfig"; path = "Target Support Files/Pods-notifly-example/Pods-notifly-example.release.xcconfig"; sourceTree = "<group>"; };
+		EB5DE42B9D5ECDCC9D4C568A /* Pods_notifly_example_notifly_exampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_notifly_example_notifly_exampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF35D055052C8E194F29F04F /* Pods-notifly-example-notifly-exampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notifly-example-notifly-exampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-notifly-example-notifly-exampleUITests/Pods-notifly-example-notifly-exampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F27610152AFCB340009B6E23 /* notifly-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "notifly-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27610182AFCB340009B6E23 /* notifly_exampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notifly_exampleApp.swift; sourceTree = "<group>"; };
+		F276101A2AFCB340009B6E23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F276101C2AFCB341009B6E23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F276101E2AFCB341009B6E23 /* notifly_example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = notifly_example.entitlements; sourceTree = "<group>"; };
+		F27610202AFCB341009B6E23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F27610262AFCB341009B6E23 /* notifly-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "notifly-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F276102A2AFCB341009B6E23 /* notifly_exampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notifly_exampleTests.swift; sourceTree = "<group>"; };
+		F27610302AFCB341009B6E23 /* notifly-exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "notifly-exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27610342AFCB341009B6E23 /* notifly_exampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notifly_exampleUITests.swift; sourceTree = "<group>"; };
+		F27610362AFCB341009B6E23 /* notifly_exampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notifly_exampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F27610432AFCB48D009B6E23 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F27610452AFCB971009B6E23 /* UserIdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserIdView.swift; sourceTree = "<group>"; };
+		F27610462AFCB971009B6E23 /* TrackEventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackEventView.swift; sourceTree = "<group>"; };
+		F27610472AFCB971009B6E23 /* UserProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProperties.swift; sourceTree = "<group>"; };
+		F276104B2AFCC0AA009B6E23 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F27610122AFCB340009B6E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F32ADC21B6365E8738AE94 /* Pods_notifly_example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27610232AFCB341009B6E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3BAD00A99EB77F180AC1DD /* Pods_notifly_exampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F276102D2AFCB341009B6E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48062773320BB207A0BDF717 /* Pods_notifly_example_notifly_exampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0942FBB9CC040424C9A60272 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFC67DCA0FF0ED2B38CCAC7D /* Pods_notifly_example.framework */,
+				EB5DE42B9D5ECDCC9D4C568A /* Pods_notifly_example_notifly_exampleUITests.framework */,
+				94FC1A0CB9454C129AE14D65 /* Pods_notifly_exampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		680F0626B647DC813FADF399 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92A12C989F276CA78F1DDCBE /* Pods-notifly-example.debug.xcconfig */,
+				E49793ABA273D23981814F6A /* Pods-notifly-example.release.xcconfig */,
+				EF35D055052C8E194F29F04F /* Pods-notifly-example-notifly-exampleUITests.debug.xcconfig */,
+				6E6C7889F4B5E3F9ABD8B2DC /* Pods-notifly-example-notifly-exampleUITests.release.xcconfig */,
+				5B4C168F8A771ED50248D2A1 /* Pods-notifly-exampleTests.debug.xcconfig */,
+				8FBB3B45FF3A82CB94E4E6B3 /* Pods-notifly-exampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F276100C2AFCB340009B6E23 = {
+			isa = PBXGroup;
+			children = (
+				F27610172AFCB340009B6E23 /* notifly-example */,
+				F27610292AFCB341009B6E23 /* notifly-exampleTests */,
+				F27610332AFCB341009B6E23 /* notifly-exampleUITests */,
+				F27610162AFCB340009B6E23 /* Products */,
+				680F0626B647DC813FADF399 /* Pods */,
+				0942FBB9CC040424C9A60272 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F27610162AFCB340009B6E23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F27610152AFCB340009B6E23 /* notifly-example.app */,
+				F27610262AFCB341009B6E23 /* notifly-exampleTests.xctest */,
+				F27610302AFCB341009B6E23 /* notifly-exampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F27610172AFCB340009B6E23 /* notifly-example */ = {
+			isa = PBXGroup;
+			children = (
+				F276104B2AFCC0AA009B6E23 /* GoogleService-Info.plist */,
+				F27610462AFCB971009B6E23 /* TrackEventView.swift */,
+				F27610452AFCB971009B6E23 /* UserIdView.swift */,
+				F27610472AFCB971009B6E23 /* UserProperties.swift */,
+				F27610432AFCB48D009B6E23 /* Constants.swift */,
+				F27610182AFCB340009B6E23 /* notifly_exampleApp.swift */,
+				F276101A2AFCB340009B6E23 /* ContentView.swift */,
+				F276101C2AFCB341009B6E23 /* Assets.xcassets */,
+				F276101E2AFCB341009B6E23 /* notifly_example.entitlements */,
+				F276101F2AFCB341009B6E23 /* Preview Content */,
+			);
+			path = "notifly-example";
+			sourceTree = "<group>";
+		};
+		F276101F2AFCB341009B6E23 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F27610202AFCB341009B6E23 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F27610292AFCB341009B6E23 /* notifly-exampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F276102A2AFCB341009B6E23 /* notifly_exampleTests.swift */,
+			);
+			path = "notifly-exampleTests";
+			sourceTree = "<group>";
+		};
+		F27610332AFCB341009B6E23 /* notifly-exampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F27610342AFCB341009B6E23 /* notifly_exampleUITests.swift */,
+				F27610362AFCB341009B6E23 /* notifly_exampleUITestsLaunchTests.swift */,
+			);
+			path = "notifly-exampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F27610142AFCB340009B6E23 /* notifly-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F276103A2AFCB341009B6E23 /* Build configuration list for PBXNativeTarget "notifly-example" */;
+			buildPhases = (
+				90D0B804E6879C4233CC9B55 /* [CP] Check Pods Manifest.lock */,
+				F27610112AFCB340009B6E23 /* Sources */,
+				F27610122AFCB340009B6E23 /* Frameworks */,
+				F27610132AFCB340009B6E23 /* Resources */,
+				678E316D56F6872363D36E5C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "notifly-example";
+			productName = "notifly-example";
+			productReference = F27610152AFCB340009B6E23 /* notifly-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F27610252AFCB341009B6E23 /* notifly-exampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F276103D2AFCB341009B6E23 /* Build configuration list for PBXNativeTarget "notifly-exampleTests" */;
+			buildPhases = (
+				5FB65E43ED867BFE50721D1B /* [CP] Check Pods Manifest.lock */,
+				F27610222AFCB341009B6E23 /* Sources */,
+				F27610232AFCB341009B6E23 /* Frameworks */,
+				F27610242AFCB341009B6E23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F27610282AFCB341009B6E23 /* PBXTargetDependency */,
+			);
+			name = "notifly-exampleTests";
+			productName = "notifly-exampleTests";
+			productReference = F27610262AFCB341009B6E23 /* notifly-exampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F276102F2AFCB341009B6E23 /* notifly-exampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F27610402AFCB341009B6E23 /* Build configuration list for PBXNativeTarget "notifly-exampleUITests" */;
+			buildPhases = (
+				5BC8C873DBFF44D547594752 /* [CP] Check Pods Manifest.lock */,
+				F276102C2AFCB341009B6E23 /* Sources */,
+				F276102D2AFCB341009B6E23 /* Frameworks */,
+				F276102E2AFCB341009B6E23 /* Resources */,
+				B13484814176EE1F43EB5DA3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F27610322AFCB341009B6E23 /* PBXTargetDependency */,
+			);
+			name = "notifly-exampleUITests";
+			productName = "notifly-exampleUITests";
+			productReference = F27610302AFCB341009B6E23 /* notifly-exampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F276100D2AFCB340009B6E23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F27610142AFCB340009B6E23 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					F27610252AFCB341009B6E23 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F27610142AFCB340009B6E23;
+					};
+					F276102F2AFCB341009B6E23 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F27610142AFCB340009B6E23;
+					};
+				};
+			};
+			buildConfigurationList = F27610102AFCB340009B6E23 /* Build configuration list for PBXProject "notifly-example" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F276100C2AFCB340009B6E23;
+			productRefGroup = F27610162AFCB340009B6E23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F27610142AFCB340009B6E23 /* notifly-example */,
+				F27610252AFCB341009B6E23 /* notifly-exampleTests */,
+				F276102F2AFCB341009B6E23 /* notifly-exampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F27610132AFCB340009B6E23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27610212AFCB341009B6E23 /* Preview Assets.xcassets in Resources */,
+				F276101D2AFCB341009B6E23 /* Assets.xcassets in Resources */,
+				F276104C2AFCC0AA009B6E23 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27610242AFCB341009B6E23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F276102E2AFCB341009B6E23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BC8C873DBFF44D547594752 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-notifly-example-notifly-exampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FB65E43ED867BFE50721D1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-notifly-exampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		678E316D56F6872363D36E5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-notifly-example/Pods-notifly-example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-notifly-example/Pods-notifly-example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-notifly-example/Pods-notifly-example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90D0B804E6879C4233CC9B55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-notifly-example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B13484814176EE1F43EB5DA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-notifly-example-notifly-exampleUITests/Pods-notifly-example-notifly-exampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-notifly-example-notifly-exampleUITests/Pods-notifly-example-notifly-exampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-notifly-example-notifly-exampleUITests/Pods-notifly-example-notifly-exampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F27610112AFCB340009B6E23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F276101B2AFCB340009B6E23 /* ContentView.swift in Sources */,
+				F27610492AFCB972009B6E23 /* TrackEventView.swift in Sources */,
+				F27610192AFCB340009B6E23 /* notifly_exampleApp.swift in Sources */,
+				F27610482AFCB972009B6E23 /* UserIdView.swift in Sources */,
+				F27610442AFCB48D009B6E23 /* Constants.swift in Sources */,
+				F276104A2AFCB972009B6E23 /* UserProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27610222AFCB341009B6E23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F276102B2AFCB341009B6E23 /* notifly_exampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F276102C2AFCB341009B6E23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27610352AFCB341009B6E23 /* notifly_exampleUITests.swift in Sources */,
+				F27610372AFCB341009B6E23 /* notifly_exampleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F27610282AFCB341009B6E23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F27610142AFCB340009B6E23 /* notifly-example */;
+			targetProxy = F27610272AFCB341009B6E23 /* PBXContainerItemProxy */;
+		};
+		F27610322AFCB341009B6E23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F27610142AFCB340009B6E23 /* notifly-example */;
+			targetProxy = F27610312AFCB341009B6E23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F27610382AFCB341009B6E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F27610392AFCB341009B6E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F276103B2AFCB341009B6E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92A12C989F276CA78F1DDCBE /* Pods-notifly-example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "notifly-example/notifly_example.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"notifly-example/Preview Content\"";
+				DEVELOPMENT_TEAM = MR367J8PMN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.notifly.notifly-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F276103C2AFCB341009B6E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E49793ABA273D23981814F6A /* Pods-notifly-example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "notifly-example/notifly_example.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"notifly-example/Preview Content\"";
+				DEVELOPMENT_TEAM = MR367J8PMN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.notifly.notifly-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F276103E2AFCB341009B6E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B4C168F8A771ED50248D2A1 /* Pods-notifly-exampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR367J8PMN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.notifly.notifly-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/notifly-example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/notifly-example";
+			};
+			name = Debug;
+		};
+		F276103F2AFCB341009B6E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FBB3B45FF3A82CB94E4E6B3 /* Pods-notifly-exampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR367J8PMN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.notifly.notifly-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/notifly-example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/notifly-example";
+			};
+			name = Release;
+		};
+		F27610412AFCB341009B6E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF35D055052C8E194F29F04F /* Pods-notifly-example-notifly-exampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR367J8PMN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.notifly.notifly-exampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "notifly-example";
+			};
+			name = Debug;
+		};
+		F27610422AFCB341009B6E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E6C7889F4B5E3F9ABD8B2DC /* Pods-notifly-example-notifly-exampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR367J8PMN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.notifly.notifly-exampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "notifly-example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F27610102AFCB340009B6E23 /* Build configuration list for PBXProject "notifly-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27610382AFCB341009B6E23 /* Debug */,
+				F27610392AFCB341009B6E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F276103A2AFCB341009B6E23 /* Build configuration list for PBXNativeTarget "notifly-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F276103B2AFCB341009B6E23 /* Debug */,
+				F276103C2AFCB341009B6E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F276103D2AFCB341009B6E23 /* Build configuration list for PBXNativeTarget "notifly-exampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F276103E2AFCB341009B6E23 /* Debug */,
+				F276103F2AFCB341009B6E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F27610402AFCB341009B6E23 /* Build configuration list for PBXNativeTarget "notifly-exampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27610412AFCB341009B6E23 /* Debug */,
+				F27610422AFCB341009B6E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F276100D2AFCB340009B6E23 /* Project object */;
+}
