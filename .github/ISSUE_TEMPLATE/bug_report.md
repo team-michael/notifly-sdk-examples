@@ -1,38 +1,48 @@
----
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+# `What Kind of Issue?`
 
----
+[ ] Bug Report<br/>
+[ ] Feature Request<br/>
+[ ] Question<br/>
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## `Bug Report Section`
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+### 1. Your Platform
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+[ ] iOS <br/>
+[ ] Android <br/>
+[ ] React Native <br/>
+[ ] Flutter <br/>
+[ ] React <br/>
+[ ] Vanila JS <br/>
+[ ] GTM <br/>
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+### 2. SDK Version
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+e.g. 1.0.0
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+### 3. Issue Description
 
-**Additional context**
-Add any other context about the problem here.
+e.g. I can't build the project because of the following error.
+
+```
+Error: Undefined symbol: _OBJC_CLASS_$_Notifly
+```
+
+### 4. Steps to reproduce the issue
+
+e.g. My Podfile is as follows.
+
+```
+Your Podfile
+```
+
+i got the error above when `pod install` and then `build` the project.
+
+### 5. (Build issue only) Do you try to build and run the example project with your environment?
+
+[ ] Yes
+[ ] No
+
+#### If you answered "Yes", please describe the result.
+
+#### If you answered "No", please try it first.
