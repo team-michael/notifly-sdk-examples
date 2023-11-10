@@ -7,9 +7,7 @@ assignees: ''
 
 ---
 
-## `Bug Report Section`
-
-### 1. Your Platform
+### 1. Your Platform and SDK Version
 
 [ ] iOS <br/>
 [ ] Android <br/>
@@ -19,11 +17,9 @@ assignees: ''
 [ ] Vanila JS <br/>
 [ ] GTM <br/>
 
-### 2. SDK Version
+`SDK Version`: e.g. 1.0.0
 
-e.g. 1.0.0
-
-### 3. experimental info
+### 2. Device information
 e.g. ios simulator - iphone 14 pro (16.4)(debug mode)
 e.g. Desktop Chrome
 
@@ -35,7 +31,7 @@ e.g. I can't build the project because of the following error.
 Error: Undefined symbol: _OBJC_CLASS_$_Notifly
 ```
 
-### 4. Steps to reproduce the issue
+### 4. Steps to reproduce the issue 
 
 e.g. My Podfile is as follows.
 
