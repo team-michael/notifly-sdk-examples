@@ -4,13 +4,18 @@ This repository aims to provide instructions on installing the Notifly client SD
 
 This repo contains samples of the following languages or frameworks:
 
+## Mobile
+
 - Kotlin 🐦
 - Swift 🦢
 - React Native 🦩
 - Flutter 🦜
 
+## Web
+
 - Javascript 🦚
 - Vanilla JS 🦉
+- Flutter Web 🦅
 
 # ⚠️ Warning ⚠️
 
