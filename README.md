@@ -34,4 +34,4 @@ You will need the configuration provided by Notifly, as well as Firebase Auth fo
 
 # How to run the samples 🏃‍♀️
 
-Please refer to the README for each platform.
+Please refer to the README for each frameworks.
