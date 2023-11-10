@@ -2,7 +2,7 @@
 
 This repository aims to provide instructions on installing the Notifly client SDK and utilizing it effectively.
 
-This repo contains samples of the following languages:
+This repo contains samples of the following languages or frameworks:
 
 - Kotlin 🐦
 - Swift 🦢
