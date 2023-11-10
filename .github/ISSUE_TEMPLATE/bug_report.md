@@ -1,3 +1,12 @@
+---
+name: Bug report
+about: Create a report to help us improve
+title: ''
+labels: bug
+assignees: ''
+
+---
+
 ## `Bug Report Section`
 
 ### 1. Your Platform
@@ -13,6 +22,10 @@
 ### 2. SDK Version
 
 e.g. 1.0.0
+
+### 3. experimental info
+e.g. ios simulator - iphone 14 pro (16.4)(debug mode)
+e.g. Desktop Chrome
 
 ### 3. Issue Description
 
