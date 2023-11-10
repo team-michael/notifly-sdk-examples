@@ -38,6 +38,8 @@ You will need the configuration provided by Notifly, as well as Firebase Auth fo
 - Android: google-services.json
 - iOS: GoogleService-Info.plist
 
+Please refer to the [Guide] (https://docs.notifly.tech/ko/developer-guide/client-sdk/firebase_project_setup#1-2-%ED%94%8C%EB%9E%AB%ED%8F%BC-%EB%B3%84-firebase-%EC%84%A4%EC%A0%95).
+
 # How to run the samples 🏃‍♀️
 
 Please refer to the README for each language or framework.
