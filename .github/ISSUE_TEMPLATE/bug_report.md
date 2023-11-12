@@ -32,6 +32,7 @@ Error: Undefined symbol: _OBJC_CLASS_$_Notifly
 ```
 
 ### 4. Steps to reproduce the issue 
+If you provide your Podfile when facing build issues, it would be helpful for us to assist in identifying and resolving the issue.
 
 e.g. My Podfile is as follows.
 
